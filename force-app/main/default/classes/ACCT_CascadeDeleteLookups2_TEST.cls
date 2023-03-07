@@ -34,7 +34,7 @@
 * @description Tests for cascade delete of Accounts
 */
 @isTest
-private class ACCT_CascadeDeleteLookups_TEST {
+private class ACCT_CascadeDeleteLookups2_TEST {
 
     /*********************************************************************************************************
     * @description Tests cascade delete: deletes accounts, which deletes recurring donations allocations
