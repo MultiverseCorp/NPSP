@@ -176,7 +176,7 @@ public with sharing class ADDR_Validator {
      * @description Support Query and Update operations for the Guest Site User - using "without sharing"
      */
     @TestVisible
-    private without sharing class EscalatedPermissions implements ADDR_Validator.PermissionController {
+    private inherited sharing  class EscalatedPermissions implements ADDR_Validator.PermissionController {
 
         public List<Address__c> queryRows(String soql, Set<Id> recordIds) {
             return Database.query(soql);

@@ -172,7 +172,7 @@ public with sharing class RD2_ElevateInformation_CTRL {
     /***
      * @description Retrieves records
      */
-    private without sharing class RecordFinder {
+    private inherited sharing  class RecordFinder {
 
         /***
          * @description Returns the latest Closed Won Opportunity for the provided record

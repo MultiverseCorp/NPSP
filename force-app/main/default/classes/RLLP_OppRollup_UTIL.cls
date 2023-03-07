@@ -34,7 +34,7 @@
 * @group-content ../../ApexDocContent/Rollups.htm
 * @description set of utility methods and values used in opportunity rollups
 */
-public without sharing class RLLP_OppRollup_UTIL {
+public inherited sharing  class RLLP_OppRollup_UTIL {
 
     /*** Settings ***/
 

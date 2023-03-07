@@ -33,7 +33,7 @@
 * @group Utilities
 * @description Common AuraEnabled methods applicable to multiple domains
 */
-public without sharing class UTIL_AuraEnabledCommon {
+public inherited sharing  class UTIL_AuraEnabledCommon {
     
     /***
     * @description Returns org domain details
