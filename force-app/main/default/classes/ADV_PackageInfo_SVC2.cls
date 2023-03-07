@@ -34,7 +34,7 @@
 * @group-content ../../ApexDocContent/TDTM.htm
 * @description Provides the Advancement Information to NPSP class.
 **/
-public class ADV_PackageInfo_SVC2 {
+public inherited sharing class ADV_PackageInfo_SVC2 {
     /*******************************************************************************************************
     * @description  The boolean value to determine if Adv project is installed.
     *******************************************************************************************************/
