@@ -36,7 +36,7 @@
 * commited to the Salesforce database. The parentId refers to the target Account, Contact, GAU or RD record - which
 * must exist in the database for the rollup to complete.
 */
-public without sharing class CRLP_ApiExecuteRollups {
+public inherited sharing  class CRLP_ApiExecuteRollups {
 
     private CRLP_RollupProcessingOptions.RollupType rollupType;
     private Id parentId;

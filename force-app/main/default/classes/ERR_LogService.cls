@@ -74,7 +74,7 @@ public inherited sharing class ERR_LogService {
     /***
      * @description Retrieves errors
      */
-    private without sharing class Finder {
+    private inherited sharing  class Finder {
 
         /**
         * @description Retrieves errors for the specified record

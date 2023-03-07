@@ -33,7 +33,7 @@
 * @group Households
 * @description The controller for the VF page invoked by using the campaign dedupe button from the campaign record
 */
-public without sharing class HH_CampaignDedupeBTN_CTRL {
+public inherited sharing  class HH_CampaignDedupeBTN_CTRL {
 
     //HH campagin deduplication. Based on base classes by Evan Callahan and Kevin Bromer
 

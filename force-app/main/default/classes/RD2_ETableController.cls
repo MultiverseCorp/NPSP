@@ -369,7 +369,7 @@ public with sharing class RD2_ETableController {
         return permissions.canRead(npe03__Recurring_Donation__c.SObjectType, fields);
     }
 
-    private without sharing class RDScheduleClass {
+    private inherited sharing  class RDScheduleClass {
         public Map<Id, List<RecurringDonationSchedule__c>> queryRows(Set<Id> recordIds) {
             Map<Id, List<RecurringDonationSchedule__c>> mapRDSchedule = new Map<Id, List<RecurringDonationSchedule__c>>();
             for(RecurringDonationSchedule__c schedule : [   SELECT Active__c, 

@@ -33,7 +33,7 @@
 * @group Recurring Donations
 * @description Class provides a batchable wrapper for open ended recurring donations
 */
-public without sharing class RD_RecurringDonations_BATCH implements Database.Batchable<SObject>, Database.Stateful,
+public inherited sharing  class RD_RecurringDonations_BATCH implements Database.Batchable<SObject>, Database.Stateful,
 Schedulable {
 
     /*******************************************************************************************************

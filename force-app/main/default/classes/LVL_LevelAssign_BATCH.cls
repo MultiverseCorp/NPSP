@@ -33,7 +33,7 @@
 * @group Levels
 * @description Batch class processes all Levels against Target objects, and updates any changes.
 */
-public without sharing class LVL_LevelAssign_BATCH implements Database.Batchable<sObject>, Database.Stateful {
+public inherited sharing  class LVL_LevelAssign_BATCH implements Database.Batchable<sObject>, Database.Stateful {
     /** @description Custom Settings record that defines Levels settings */
     @TestVisible
     private static Levels_Settings__c levelsSettings = UTIL_CustomSettingsFacade.getLevelsSettings();

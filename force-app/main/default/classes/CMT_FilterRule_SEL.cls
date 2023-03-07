@@ -36,7 +36,7 @@
 // Adding custom rule to avoid this class being scanned by the SFCA scanner since we will not enforce FLS for
 // customizable rollups.
 /* sfge-disable ApexFlsViolationRule */
-public without sharing class CMT_FilterRule_SEL {
+public inherited sharing  class CMT_FilterRule_SEL {
 
     /**
      * @description Private static vars to cache the Custom Metadata Type records.

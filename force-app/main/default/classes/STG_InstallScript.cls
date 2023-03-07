@@ -33,7 +33,7 @@
 * @group Settings
 * @description Install Script for the NPSP package.
 */
-global without sharing class STG_InstallScript implements InstallHandler {
+global inherited sharing  class STG_InstallScript implements InstallHandler {
 
     @TestVisible
     private enum InstallAction {
@@ -514,7 +514,7 @@ global without sharing class STG_InstallScript implements InstallHandler {
     /*******************************************************************************************************
     * @description Collects exceptions. Logs exceptions by sending an email and processing error via ERR_Handler.
     */
-    public class ErrorLogger {
+    public inherited sharing class ErrorLogger {
         /** @description The install context. */
         InstallContext installContext;
 

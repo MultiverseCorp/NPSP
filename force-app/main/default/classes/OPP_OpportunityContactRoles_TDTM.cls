@@ -34,7 +34,7 @@
 * @group-content ../../ApexDocContent/Opportunity.htm
 * @description Provides opportunity and contact role support for all models  
 */
-public without sharing class OPP_OpportunityContactRoles_TDTM extends TDTM_Runnable {
+public inherited sharing  class OPP_OpportunityContactRoles_TDTM extends TDTM_Runnable {
 
     private static final String FIELD_NAME_PRIMARY_CONTACT = 'Primary_Contact__c';
     private static final String FIELD_NAME_HONOREE_CONTACT = 'Honoree_Contact__c';

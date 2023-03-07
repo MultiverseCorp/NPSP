@@ -78,7 +78,7 @@ public inherited sharing class RD2_Donor {
     * @description Gateway to retrieve donor information
     *   Use without sharing context so Guest Site User can retrieve Account infos
     */
-    public without sharing class Gateway implements IGateway {
+    public inherited sharing  class Gateway implements IGateway {
 
         /***
         * @description Returns donor information for provided Recurring Donation records
