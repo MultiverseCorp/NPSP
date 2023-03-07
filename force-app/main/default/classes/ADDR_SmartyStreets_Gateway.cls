@@ -1,4 +1,6 @@
 /*
+    DEMO PURPOSES
+    
     Copyright (c) 2014, Salesforce.org
     All rights reserved.
 
@@ -33,7 +35,7 @@
 * @group Address Management
 * @description Class that talks to the SmartyStreets address verification API.
  */
-public with sharing class ADDR_SmartyStreets_Gateway {
+public class ADDR_SmartyStreets_Gateway {
 
     private Addr_Verification_Settings__c settings;
     private String auth;
