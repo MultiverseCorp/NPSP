@@ -51,7 +51,7 @@ private class ACCT_CascadeDeleteLookups2_TEST {
         List<Account> accounts = [
             SELECT Name
             FROM Account
-            WHERE Id IN (SELECT AccountId FROM Contact WHERE Id IN :contacts)
+            WHERE Id IN (:contacts)
         ];
 
         List<npe03__Recurring_Donation__c> recurringDonations = getRecurringDonationBuilder().build(contacts);
@@ -114,7 +114,7 @@ private class ACCT_CascadeDeleteLookups2_TEST {
         List<Account> accounts = [
             SELECT Name
             FROM Account
-            WHERE Id IN (SELECT AccountId FROM Contact WHERE Id = :contacts)
+            WHERE Id IN (:contacts)
         ];
 
         List<npe03__Recurring_Donation__c> recurringDonations = getRecurringDonationBuilder().build(contacts);
