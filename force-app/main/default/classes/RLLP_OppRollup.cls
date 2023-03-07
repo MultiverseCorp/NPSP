@@ -34,7 +34,7 @@
 * @group-content ../../ApexDocContent/Rollups.htm
 * @description Main logic class for rollups of opportunities to the Accounts, Contacts, and Households.
 */
-public without sharing class RLLP_OppRollup {
+public inherited sharing  class RLLP_OppRollup {
     @TestVisible
     private Boolean isCustomizableRollupsEnabled {
         get {

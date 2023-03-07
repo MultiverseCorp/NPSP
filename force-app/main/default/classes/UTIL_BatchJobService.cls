@@ -33,7 +33,7 @@
 * @group Batch Job
 * @description Batch job service
 */
-public without sharing class UTIL_BatchJobService {
+public inherited sharing  class UTIL_BatchJobService {
     /***
     * @description A batch job custom exception
     */

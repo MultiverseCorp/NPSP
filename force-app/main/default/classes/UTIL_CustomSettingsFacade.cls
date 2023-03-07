@@ -34,7 +34,7 @@
 * @description Helper class that retrieves custom settings and sets defaults.
 * Needs to be "without sharing" so that the Install Script can run it.
 */
-public without sharing class UTIL_CustomSettingsFacade {
+public inherited sharing  class UTIL_CustomSettingsFacade {
     public static final String DEFAULT_OPPORTUNITY_CONTACT_ROLE_DONOR = CAO_Constants.OCR_DONOR_ROLE;
     public static final String DEFAULT_OPPORTUNITY_CONTACT_ROLE_SOFT_CREDIT = 'Soft Credit';
 

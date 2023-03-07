@@ -790,7 +790,7 @@ public with sharing class LD_LeadConvertOverride_CTRL {
     }
 
     @TestVisible
-    private without sharing class DMLWithoutSharing {
+    private inherited sharing  class DMLWithoutSharing {
         SObject record;
         List<SObject> records;
 
@@ -818,7 +818,7 @@ public with sharing class LD_LeadConvertOverride_CTRL {
     }
 
     @TestVisible
-    private without sharing class ContactQueryWithoutSharing {
+    private inherited sharing  class ContactQueryWithoutSharing {
 
         @TestVisible
         private OrgConfig orgConfig {
