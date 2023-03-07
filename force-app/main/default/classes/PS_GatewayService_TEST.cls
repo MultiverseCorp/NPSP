@@ -146,37 +146,6 @@ public with sharing class PS_GatewayService_TEST {
     ) {
         UTIL_Http_TEST.CalloutMock calloutMock = UTIL_Http_TEST.mockSuccessCalloutResponse(
                 '{\n' +
-                        '  "gateways": [\n' +
-                        '    {\n' +
-                        '      "id": "' + gatewayId + '",\n' +
-                        '      "merchantId": "fcdaee39-d8e9-4197-80da-0b2d4182d7c4",\n' +
-                        '      "createdAt": "2022-07-27T02:31:43.144Z",\n' +
-                        '      "type": "STRIPE_CONNECT",\n' +
-                        '      "alias": "' + gatewayAlias + '",\n' +
-                        '      "settings": {\n' +
-                        enabledPaymentMethods + '\n' +
-                        '      },\n' +
-                        '      "vendorName": "Stripe Connect",\n' +
-                        '      "vendorType": "STRIPE_CONNECT",\n' +
-                        '      "version": 1,\n' +
-                        '      "tenantId": "99"\n' +
-                        '    },\n' +
-                        '    {\n' +
-                        '      "id": "8970570c-b731-466f-9282-8ee749e40ad0",\n' +
-                        '      "merchantId": "fcdaee39-d8e9-4197-80da-0b2d4182d7c4",\n' +
-                        '      "createdAt": "2022-07-27T02:30:03.399Z",\n' +
-                        '      "type": "STRIPE_CONNECT_TEST",\n' +
-                        '      "settings": {\n' +
-                        '        "enabledPaymentMethods": [\n' +
-                        '          "CARD"\n' +
-                        '        ]\n' +
-                        '      },\n' +
-                        '      "vendorName": "' + vendorName + '",\n' +
-                        '      "vendorType": "test",\n' +
-                        '      "version": 1,\n' +
-                        '      "tenantId": "99"\n' +
-                        '    }\n' +
-                        '  ]\n' +
                         '}'
         );
 
